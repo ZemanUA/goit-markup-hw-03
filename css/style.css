@@ -2,6 +2,10 @@ html {
     margin: 0;
 }
 
+img {
+    display: block;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
@@ -261,6 +265,7 @@ info-list-item {
 .team {
     background-color: #F4F4FD;
     height: 730px;
+    padding: 120px 0;
 }
 
 .team-header {
@@ -272,6 +277,7 @@ info-list-item {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .team-list {
@@ -284,10 +290,13 @@ info-list-item {
 }
 
 .team-list-item {
-    width: 264px;
-    height: 380px;
-    background-color: white;
-    padding-bottom: 32px;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.list-header-container{
+    padding: 32px 0;
+
 }
 
 .team-list-header {
@@ -297,8 +306,9 @@ info-list-item {
     letter-spacing: 0.02em;
     line-height: 1.2;
     color: #2E2F42;
-    margin: 0;
+    margin-bottom: 8px;
     padding: 32px 0px 13px 0px;
+    text-align: center;
 }
 
 .team-list-text {
@@ -308,6 +318,7 @@ info-list-item {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 
 /* section=team-end */
