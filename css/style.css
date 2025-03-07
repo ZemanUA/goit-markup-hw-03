@@ -91,8 +91,13 @@ header {
 }
 
 /* navigation-end */
-
 .contacts {
+    gap: 40px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
     font-style: normal;
 }
 
@@ -120,22 +125,8 @@ header {
     color: #404bbf;
 }
 
-.contacts {
-    gap: 40px;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-}
 
-.contacts li {
-    padding-right: 40px;
-}
 
-.contacts li:last-child {
-    padding-right: 0px;
-}
 
 /* header-end */
 
@@ -209,6 +200,20 @@ header {
     visibility: hidden;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .info {
     background-color: white;
     height: 330px;
@@ -223,9 +228,6 @@ header {
     list-style-type: none;
 }
 
-.info-list:first-child{
-    width: calc((100% - 72px) / 4);
-}
 
 .info-list-header {
     font-family: 'Roboto', sans-serif;
@@ -235,6 +237,10 @@ header {
     line-height: 1.2;
     color: #2E2F42;
     margin-bottom: 8px;
+}
+
+info-list-item {
+    width: calc((100% - 72px) / 4);
 }
 
 .info-list-text {
