@@ -229,6 +229,9 @@ header {
     list-style-type: none;
 }
 
+.info-list-item {
+width: calc((100% - 72px) / 4);
+}
 
 .info-list-header {
     font-family: 'Roboto', sans-serif;
@@ -238,10 +241,6 @@ header {
     line-height: 1.2;
     color: #2E2F42;
     margin-bottom: 8px;
-}
-
-.info-list-item {
-    width: calc((100% - 72px) \ 4);
 }
 
 .info-list-text {
@@ -287,8 +286,7 @@ header {
 }
 
 .team-list-item {
-    width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
+width: calc((100% - 72px) / 4);
 }
 
 .list-header-container{
@@ -351,10 +349,7 @@ header {
 }
 
 .portfolio-list-item {
-    width: 360px;
-    height: 420px;
-    background-color: white;
-    padding-bottom: 20px;
+width: calc((100% - 72px) / 4);
 }
 
 .portfolio-container{
@@ -394,6 +389,7 @@ footer {
 }
 
 .footer-logo {
+    display: inline-block;
     text-decoration: none;
     list-style-type: none;
     font-family: "Raleway", sans-serif;
