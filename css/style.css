@@ -1,4 +1,10 @@
-html {
+ul,ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p {
     margin: 0;
 }
 
@@ -399,12 +405,13 @@ footer {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    display: inline-block;
+
     margin-bottom: 16px;
 }
 
 .footer-logo-item {
     color: #f4f4fd;
+    display: inline-block;
 }
 
 .footer-text {
