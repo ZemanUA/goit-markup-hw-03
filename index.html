@@ -1,418 +1,188 @@
-ul,ol {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-h1,h2,h3,h4,h5,h6,p {
-    margin: 0;
-}
-
-img {
-    display: block;
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #FFFFFF;
-    color: #434455;
-    margin: 0;
-}
-
-.container {
-    display: flex;
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
-/* header */
-header {
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    height: 72px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: regular;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2px;
-    border-bottom: 1px solid #e7e9fc;
-
-}
-
-/* navigation-start */
-
-.navigation {
-    margin: 0%;
-    display: flex;
-    align-items: center;
-
-}
-
-.menu {
-    margin: 0%;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    gap: 40px;
-    color: white;
-}
-
-.header-logo {
-    text-decoration: none;
-    list-style-type: none;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    margin-right: 76px;
-}
-
-.header-logo-item {
-    color: #2e2f42;
-}
-
-.menu-item {
-    color: #2e2f42;
-
-}
-
-.menu-item-link {
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    padding: 24px 0;
-}
-
-.menu-item-link:hover {
-    color: #404bbf;
-}
-
-.menu-item-link:focus {
-    color: #404bbf;
-}
-
-/* navigation-end */
-.contacts {
-    gap: 40px;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-    font-style: normal;
-}
-
-.contacts-item {
-    text-decoration: none;
-    color: #2E2F42;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: regular;
-    letter-spacing: 0.02em;
-    line-height: 1.5;
-    text-decoration: none;
-}
-
-.contacts-item-link {
-    text-decoration: none;
-    color: #434455;
-}
-
-.contacts-item-link:focus {
-    color: #404bbf;
-}
-
-.contacts-item-link:hover {
-    color: #404bbf;
-}
-
-
-
-
-/* header-end */
-
-/* main */
-
-/* section-main-header-start */
-
-.main-header {
-    display: flex;
-    flex-direction: column;
-    gap: 67px;
-    justify-content: center;
-    align-items: center;
-    height: 600px;
-    background-color: #2E2F42;
-    padding: 188px 0;
-}
-
-.first-header {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 56px;
-    font-weight: bold;
-    letter-spacing: 0.02em;
-    line-height: 1.07;
-    white-space: pre-line;
-    text-align: center;
-    background-color: #4D5AE5;
-    max-width: 496px;
-}
-
-
-.main-header-button {
-    display: block;
-    border: none;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    border-radius: 4px;
-    background-color: #4d5ae5;
-    color: white;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 2px;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-}
-
-.main-header-button:hover {
-    background-color: #404BBF;
-}
-
-.main-header-button:focus {
-    background-color: #404BBF;
-}
-
-/* section-main-header-end */
-
-/* section-info-start */
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
-.info {
-    background-color: white;
-    height: 330px;
-    padding: 120px 0;
-}
-
-
-.info-list {
-    display: flex;
-    justify-content: space-around;
-    gap: 24px;
-    list-style-type: none;
-}
-
-.info-list-item {
-width: calc((100% - 72px) / 4);
-}
-
-.info-list-header {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    line-height: 1.2;
-    color: #2E2F42;
-    margin-bottom: 8px;
-}
-
-.info-list-text {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: regular;
-    letter-spacing: 0.02em;
-    line-height: 1.5;
-    color: #434455;
-}
-
-/* section-info-end */
-
-
-
-/* section-team-start */
-
-.team {
-    background-color: #F4F4FD;
-    height: 730px;
-    padding: 120px 0;
-}
-
-.team-header {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-    color: #2e2f42;
-    margin-bottom: 72px;
-}
-
-.team-list {
-    margin: 0;
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    background-color: #F4F4FD;
-}
-
-.team-list-item {
-    width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
-}
-
-.list-header-container{
-    padding: 32px 0;
-
-}
-
-.team-list-header {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    line-height: 1.2;
-    color: #2E2F42;
-    margin-bottom: 8px;
-    padding: 32px 0px 13px 0px;
-    text-align: center;
-}
-
-.team-list-text {
-    font-family: 'Roboto', sans-serif;
-    font-weight: regular;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    text-align: center;
-}
-
-/* section=team-end */
-
-/* section-portfolio-start */
-
-.portfolio {
-    background-color: white;
-    height: 1250px;
-    padding: 120px 0 120px 0;
-}
-
-.portfolio-header {
-    font-family: 'Roboto', sans-serif;
-    font-size: 36px;
-    font-weight: bold;
-    letter-spacing: 0.02em;
-    line-height: 1.11;
-    color: #2E2F42;
-    text-align: center;
-    text-transform: capitalize;
-    margin: 0 auto;
-    margin-bottom: 72px;
-}
-
-.portfolio-list-item {
-    width: calc((100% - 48px) / 3);
-}
-
-.portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    column-gap: 24px;
-    row-gap: 48px;
-    list-style-type: none;
-    margin: 0%;
-}
-
-
-.portfolio-container{
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-}
-
-.portfolio-list-header {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-    margin-bottom: 8px;
-    padding: 32px 0px 18px 0px;
-}
-
-.portfolio-list-text {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: regular;
-    letter-spacing: 0.02em;
-    line-height: 1.5;
-    color: #434455;
-}
-
-/* section-portfolio-end */
-
-/* section-footer-start */
-
-footer {
-    display: flex;
-    background-color: #2E2F42;
-    padding: 100px 0;
-}
-
-.footer-logo {
-    display: inline-block;
-    text-decoration: none;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    margin-bottom: 16px;
-}
-
-.footer-logo-item { 
-    display: inline-block;
-    color: #f4f4fd;
-
-}
-
-.footer-text {
-    white-space: pre-line;
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-    font-weight: regular;
-    letter-spacing: 0.02em;
-    line-height: 1.5;
-    color: #F4F4FD;
-    max-width: 264px
-}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>goit-markup-hw-02</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+        <nav class="navigation">
+            <a href="./index.html" class="header-logo">Web
+                <span class="header-logo-item">Studio</span>
+            </a>
+            <ul class="menu">
+                <li class="menu-item"><a href="./index.html" class="menu-item-link">Studio</a></li>
+                <li class="menu-item"><a href="" class="menu-item-link">Portfolio</a></li>
+                <li class="menu-item"><a href="" class="menu-item-link">Contacts</a></li>
+            </ul>
+        </nav>
+        <address class="contacts">
+            <ul class="contacts">
+                <li class="contacts-item">
+                    <a href="mailto:info@devstudio.com" class="contacts-item-link">info@devstudio.com</a>
+                </li>
+                <li class="contacts-item">
+                    <a href="tel:+110001111111" class="contacts-item-link">+11 (000) 111-11-11</a>
+                </li>
+            </ul>
+        </address>
+        </div>
+    </header>
+    <main>
+        <section class="main-header">
+            <div class="container">
+            <h1 class="first-header">
+                Effective Solutions
+                for Your Business
+            </h1>
+            <button type="button" class="main-header-button">Order Service</button>
+            </div>
+        </section>
+        <section class="info">
+            <div class="container">
+            <h2 class="visually-hidden ">Lorem</h2>
+            <ul class="info-list">
+                <li class="info-list-item">
+                    <h3 class="info-list-header">Strategy</h3>
+                    <p class="info-list-text">Our goal is to identify the business
+                        problem to walk away with the perfect and creative solution. </p>
+                </li>
+                <li class="info-list-item">
+                    <h3 class="info-list-header">Punctuality</h3>
+
+                    <p class="info-list-text">Bring the key message to the brand's audience for the best price within
+                        the shortest possible time.</p>
+                </li>
+                <li class="info-list-item">
+                    <h3 class="info-list-header">Diligence</h3>
+                    <p class="info-list-text">
+                        Research and confirm brands with the strongest digital growth opportunities and minimize risk.
+                    </p>
+                </li>
+                <li class="info-list-item">
+                    <h3 class="info-list-header">Technologies</h3>
+                    <p class="info-list-text">
+                        Design practice focused on digital experiences. We bring forth a deep passion for
+                        problem-solving.
+                    </p>
+                </li>
+            </ul>
+            </div>
+        </section>
+        <section class="team">
+            <div class="container">
+            <h2 class="team-header">Our Team</h2>
+            <ul class="team-list">
+                <li class="team-list-item">
+                    <img src="./images/img.jpg" width="264" alt="Mark Guerrero">
+                    <div class="list-header-container">
+                        <h3 class="team-list-header">Mark Guerrero</h3>
+                        <p class="team-list-text">Product Designer</p>
+                    </div>
+                </li>
+                <li class="team-list-item">
+                    <img src="./images/img2.jpg" width="264" alt="Tom Ford">
+                    <div class="list-header-container">
+                        <h3 class="team-list-header">Tom Ford</h3>
+                        <p class="team-list-text">Frontend Developer</p>
+                    </div>
+                </li>
+                <li class="team-list-item">
+                    <img src="./images/img3.jpg" width="264" alt="Camila Garcia">
+                    <div class="list-header-container">
+                        <h3 class="team-list-header">Camila Garcia</h3>
+                        <p class="team-list-text">Marketing</p>
+                    </div>
+                </li>
+                <li class="team-list-item">
+                    
+                    <img src="./images/img4.jpg" width="264" alt="Daniel Wilson">
+                    <div class="list-header-container">
+                        <h3 class="team-list-header">Daniel Wilson</h3>
+                        <p class="team-list-text">UI Designer</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        </section>
+        <section class="portfolio">
+            <div class="container">
+                <h2 class="portfolio-header">Our Portfolio</h2>
+                <ul class="portfolio-list">
+                    <li class="portfolio-list-item">
+                        <img src="./images/Banking.jpg" alt="Banking" class="portfolio-list-item-img" width="360"> 
+                        <div class="portfolio-container">
+                            <h3 class="portfolio-list-header">Banking App</h3>
+                            <p class="portfolio-list-text">App</p>
+                        </div>
+                    </li>
+                    <li class="portfolio-list-item">
+                        <img src="./images/Cashless.jpg" alt="Cashless Payment" class="portfolio-list-item-img" width="360">   
+                        <div class="portfolio-container">
+                            <h3 class="portfolio-list-header">Cashless Payment</h3>
+                            <p class="portfolio-list-text">Marketing</p>
+                        </div>
+                    </li>
+                    <li class="portfolio-list-item">
+                        <img src="./images/Meditation.jpg" alt="Meditation App" class="portfolio-list-item-img" width="360">   
+                        <div class="portfolio-container">
+                            <h3 class="portfolio-list-header">Meditation App</h3>
+                            <p class="portfolio-list-text">App</p>
+                        </div>
+                    </li>
+                    <li class="portfolio-list-item">
+                        <img src="./images/taxi.jpg" alt="Taxi Service" class="portfolio-list-item-img" width="360">   
+                        <div class="portfolio-container">
+                            <h3 class="portfolio-list-header">Taxi Service</h3>
+                            <p class="portfolio-list-text">Marketing</p>
+                        </div>
+                    </li>
+                    <li class="portfolio-list-item">
+                        <img src="./images/Illustrations.jpg" alt="Screen Illustrations" class="portfolio-list-item-img"
+                            width="360"> 
+                            <div class="portfolio-container"> 
+                                <h3 class="portfolio-list-header">Screen Illustrations</h3>
+                                <p class="portfolio-list-text">Design</p>
+                            </div>
+                    </li>
+                    <li class="portfolio-list-item">
+                        <img src="./images/Courses.jpg" alt="Online Courses" class="portfolio-list-item-img" width="360">  
+                        <div class="portfolio-container">
+                            <h3 class="portfolio-list-header">Online Courses</h3>
+                            <p class="portfolio-list-text">Marketing</p>  
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <a href="./index.html" class="footer-logo">Web
+                <span class="footer-logo-item">Studio</span>
+            </a>
+            <p class="footer-text">
+                Increase the flow of customers and
+                sales for your business with digital
+                marketing & growth solutions.
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
