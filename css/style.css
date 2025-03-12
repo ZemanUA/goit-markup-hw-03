@@ -347,6 +347,7 @@ width: calc((100% - 72px) / 4);
     column-gap: 24px;
     row-gap: 48px;
     list-style-type: none;
+    margin: 0%;
 }
 
 
@@ -381,6 +382,7 @@ width: calc((100% - 72px) / 4);
 /* section-footer-start */
 
 footer {
+    display: flex;
     background-color: #2E2F42;
     padding: 100px 0;
 }
